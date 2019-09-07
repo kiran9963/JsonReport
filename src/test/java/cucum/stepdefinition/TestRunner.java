@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/resources/Features/search.feature",glue="cucum.stepdefinition",
-monochrome=true,dryRun= false, strict = true)
+monochrome=true,dryRun=false,strict = true)
 public class TestRunner { 
 
 }

@@ -12,16 +12,14 @@ public class Hook  {
 	
 	@Before
 	public void user_should_launch_browser() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\eclipse-kk\\cucumber\\chrome\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.get("https://www.tactics.com/account/login");
+	System.out.println("before");
+		Base.getDriver();
+	
+	Base.loadurl("https://www.tactics.com/account/login");
+	
 		
 		}
-	@Before("@tag2")
-	public void taggedhook() {
-		System.out.println("searchpage");
-		
-			}
+	
 
 		
 

@@ -1,5 +1,8 @@
 package cucum.stepdefinition;
 
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+
 import cucum.objectrepository.AddtocartPage;
 import cucum.resources.Base;
 import cucumber.api.java.en.Given;
@@ -14,7 +17,7 @@ public class AddtoCart extends Base {
 	    getDriver();
 	    launchurl("https://www.tactics.com/account/login");
 	}*/
-
+/*
 	@When("User should click the Travell bag")
 	public void user_should_click_the_Travell_bag() {
 		
@@ -28,11 +31,13 @@ public class AddtoCart extends Base {
 		AddtocartPage add=new AddtocartPage();
 		click(add.getClkaddcart());
 	}
-	@Then("User should click checkout")
+	@When("User should click checkout")
 	public void user_should_click_checkout() {
 		AddtocartPage add=new AddtocartPage();
-		click(add.getClkcheckout());
+		clickUsingJavaScript(add.getClkcheckout());
 	}
+	*/
+	
 
 
 } 

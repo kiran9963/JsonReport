@@ -18,7 +18,7 @@ private WebElement clkbag;
 	
 	private WebElement clkaddcart;
 	
-@FindBy(className="checkout-button checkout-button-checkout")
+@FindBy(xpath="(//button[contains(text(),'Checkout')])[1]")
 	
 	private WebElement clkcheckout;
 
