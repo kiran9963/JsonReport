@@ -6,8 +6,8 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/Features/search.feature",glue="cucum.stepdefinition",
-monochrome=true,dryRun=false,strict = true)
-public class TestRunner { 
+@CucumberOptions(features="src/test/resources/Features",glue="cucum.stepdefinition",
+monochrome=true,dryRun=false,strict = true,plugin= {"json:target","rerun:src/test/resources/Features/failed.txt"})
+public class TestRunner {  
 
 }

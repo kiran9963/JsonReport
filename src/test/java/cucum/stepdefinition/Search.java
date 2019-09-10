@@ -67,7 +67,7 @@ public class Search extends Base{
 		 sendKeys(cd.getAddress1(), "sipkot");
 		 sendKeys(cd.getAddress2(), "sipkot");
 		 sendKeys(cd.getCity(), "chennai");
-		 sendKeys(cd.getState(), "Newjersy");
+		 select(cd.getState(), "New Jersey");
 		  sendKeys(cd.getCode(),"603103");
 		 select(cd.getCountry(),"Mexico");
 		 sendKeys(cd.getPhone(), "9885398386");
@@ -76,7 +76,7 @@ public class Search extends Base{
 		 select(cd.getCardyear(), "2025");
 		 sendKeys(cd.getCardexpire(), "010");
 		 sendKeys(cd.getEmail(), "krantikiran@gmail.com");
-		 sendKeys(cd.getPassword(),"kranti123456789");
+		 //sendKeys(cd.getPassword(),"kranti123456789");
 		 clickUsingJavaScript(cd.getSubmitorder());
 	
 	

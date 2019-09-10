@@ -30,10 +30,10 @@ public class CustomerDetails extends Base {
 	@FindBy(xpath="//input[@id='ShipAddress_City']")
 	private WebElement city;
 	
-	@FindBy(id="ShipAddress_State")
+	@FindBy(xpath="//select[@id='ShipAddress_State']")
 	private WebElement state;
 	
-	@FindBy(xpath="//input[@id='ShipAddress_Zip']")
+	@FindBy(xpath="//input[@name='ShipAddress.Zip']")
 	private WebElement code;
 
 	
@@ -52,10 +52,7 @@ public class CustomerDetails extends Base {
 	@FindBy(xpath="//select[@id='Pay_ExpirationYear']")
 	private WebElement cardyear;
 	
-	public WebElement getPassword() {
-		return password;
-	}
-
+	
 	@FindBy(xpath="//input[@id='Pay_SecurityCode']")
 	private WebElement cardexpire;
 	
@@ -67,31 +64,6 @@ public class CustomerDetails extends Base {
 	
 	@FindBy(xpath="//input[@id='Password']")
 	private WebElement password;
-	
-
-	public WebElement getSubmitorder() {
-		return submitorder;
-	}
-
-	public WebElement getCardNor() {
-		return cardNor;
-	}
-
-	public WebElement getCardmnth() {
-		return cardmnth;
-	}
-
-	public WebElement getCardyear() {
-		return cardyear;
-	}
-
-	public WebElement getCardexpire() {
-		return cardexpire;
-	}
-
-	public WebElement getEmail() {
-		return email;
-	}
 
 	public WebElement getFname() {
 		return fname;
@@ -133,6 +105,34 @@ public class CustomerDetails extends Base {
 		return phone;
 	}
 
-	
+	public WebElement getCardNor() {
+		return cardNor;
+	}
+
+	public WebElement getCardmnth() {
+		return cardmnth;
+	}
+
+	public WebElement getCardyear() {
+		return cardyear;
+	}
+
+	public WebElement getCardexpire() {
+		return cardexpire;
+	}
+
+	public WebElement getEmail() {
+		return email;
+	}
+
+	public WebElement getSubmitorder() {
+		return submitorder;
+	}
+
+	public WebElement getPassword() {
+		return password;
+	}
 
 }
+
+	
