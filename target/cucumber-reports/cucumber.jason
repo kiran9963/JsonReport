@@ -1,0 +1,134 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 26317737043,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.user_should_launch_browser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Add to cart the product",
+        "description": "",
+        "id": "tactics-project;add-to-cart-the-product",
+        "after": [
+          {
+            "result": {
+              "duration": 381944,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.addScreenShot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1780838868,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Shuould enter the product name",
+            "match": {
+              "location": "Search.user_Shuould_enter_the_product_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10756495227,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should click the search button",
+            "match": {
+              "location": "Search.user_should_click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5086802998,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click the Travell bag",
+            "match": {
+              "location": "Search.user_should_click_the_Travell_bag()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5249052466,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should click the  ADD to cart button",
+            "match": {
+              "location": "Search.user_should_click_the_ADD_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2890227434,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should click checkout",
+            "match": {
+              "location": "Search.user_should_click_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9240393705,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Should provide details in form",
+            "match": {
+              "location": "Search.user_should_provide_details_in_form()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Tactics project",
+    "description": "  I want to use this template for my feature file",
+    "id": "tactics-project",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/search.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
